@@ -2,14 +2,14 @@ const e = require('./emoji');
 
 module.exports = [
     {
-        kw: [
+        keyword: [
             'correct',
             'fix',
             'bugfix',
             'bug',
             'patch',
         ],
-        e: [
+        emoji: [
             e._bug /*🐛*/,
             e._beetle /*🐞*/,
             e._hammer /*🔨*/,
@@ -18,7 +18,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'wrap',
             'hold',
             'cover',
@@ -27,7 +27,7 @@ module.exports = [
             'box',
             'contain',
         ],
-        e: [
+        emoji: [
             e._shell /*🐚*/,
             e._open_hands /*👐*/,
             e._package /*📦*/,
@@ -39,7 +39,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'merge',
             'mix',
             'attach',
@@ -51,7 +51,7 @@ module.exports = [
             'distill',
             'handshake',
         ],
-        e: [
+        emoji: [
             e._performing_arts /*🎭*/,
             e._handshake /*🤝*/,
             e._clamp /*🗜*/,
@@ -65,7 +65,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'remove',
             'delete',
             'drop',
@@ -73,7 +73,7 @@ module.exports = [
             'exclude',
             'archive',
         ],
-        e: [
+        emoji: [
             e._fire /*🔥*/,
             e._gun /*🔫*/,
             e._bomb /*💣*/,
@@ -95,13 +95,13 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'order',
             'sort',
             'arrange',
             'reorder',
         ],
-        e: [
+        emoji: [
             e._signal_strength /*📶*/,
             e._chart_with_upwards_trend /*📈*/,
             e._chart_with_downwards_trend /*📉*/,
@@ -113,7 +113,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'improve',
             'enhance',
             'upgrade',
@@ -122,7 +122,7 @@ module.exports = [
             'embellish',
             'cosmetics',
         ],
-        e: [
+        emoji: [
             e._hammer /*🔨*/,
             e._wrench /*🔧*/,
             e._medal_military /*🎖*/,
@@ -138,7 +138,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'apply',
             'set',
             'put',
@@ -146,7 +146,7 @@ module.exports = [
             'register',
             'confirm',
         ],
-        e: [
+        emoji: [
             e._syringe /*💉*/,
             e._hammer /*🔨*/,
             e._wrench /*🔧*/,
@@ -157,7 +157,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'add',
             'insert',
             'update',
@@ -168,7 +168,7 @@ module.exports = [
             'prepend',
             'feature',
         ],
-        e: [
+        emoji: [
             e._heavy_plus_sign /*➕*/,
             e._paperclip /*📎*/,
             e._paperclips /*🖇*/,
@@ -190,14 +190,14 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'lint',
             'clean',
             'format',
             'style',
             'refactor',
         ],
-        e: [
+        emoji: [
             e._shirt /*👕*/,
             e._tshirt /*/*/,
             e._medal_military /*🎖*/,
@@ -214,7 +214,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'refactor',
             'rewrite',
             'reestablish',
@@ -222,7 +222,7 @@ module.exports = [
             'rethink',
             'recycle',
         ],
-        e: [
+        emoji: [
             e._building_construction /*🏗*/,
             e._hammer /*🔨*/,
             e._wrench /*🔧*/,
@@ -231,7 +231,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'test',
             'assess',
             'exam',
@@ -241,7 +241,7 @@ module.exports = [
             'supervise',
             'fixture',
         ],
-        e: [
+        emoji: [
             e._alembic /*⚗*/,
             e._stopwatch /*⏱*/,
             e._mag /*🔍*/,
@@ -253,7 +253,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'send',
             'move',
             'out',
@@ -262,7 +262,7 @@ module.exports = [
             'give',
             'produce',
         ],
-        e: [
+        emoji: [
             e._envelope /*✉*/,
             e._outbox_tray /*📤*/,
             e._satellite /*📡*/,
@@ -281,7 +281,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'ask',
             'request',
             'inquiry',
@@ -290,7 +290,7 @@ module.exports = [
             'receive',
             'take',
         ],
-        e: [
+        emoji: [
             e._question /*❓*/,
             e._grey_question /*❔*/,
             e._fork_and_knife /*🍴*/,
@@ -298,7 +298,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'consume',
             'listen',
             'subscribe',
@@ -307,7 +307,7 @@ module.exports = [
             'callback',
             'standby',
         ],
-        e: [
+        emoji: [
             e._ear /*👂*/,
             e._headphone /*🎧*/,
             e._hourglass_flowing_sand /*⏳*/,
@@ -319,7 +319,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'job',
             'cron',
             'schedule',
@@ -328,7 +328,7 @@ module.exports = [
             'repeat',
             'repetitive',
         ],
-        e: [
+        emoji: [
             e._stopwatch /*⏱*/,
             e._timer /*⏲*/,
             e._alarm_clock /*⏰*/,
@@ -338,7 +338,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'search',
             'find',
             'lookup',
@@ -346,7 +346,7 @@ module.exports = [
             'query',
             'select',
         ],
-        e: [
+        emoji: [
             e._mag /*🔍*/,
             e._mag_right /*🔎*/,
             e._flashlight /*🔦*/,
@@ -359,7 +359,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'rollback',
             'downgrade',
             'reset',
@@ -367,7 +367,7 @@ module.exports = [
             'revert',
             'undo',
         ],
-        e: [
+        emoji: [
             e._arrow_down /*⬇*/,
             e._arrow_double_down /*⏬*/,
             e._arrow_heading_down /*⤵*/,
@@ -375,7 +375,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'log',
             'record',
             'store',
@@ -387,7 +387,7 @@ module.exports = [
             'manual',
             'comment',
         ],
-        e: [
+        emoji: [
             e._scroll /*📜*/,
             e._pencil /*📝*/,
             e._writing_hand /*✍*/,
@@ -408,7 +408,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'avoid',
             'prevent',
             'caution',
@@ -418,7 +418,7 @@ module.exports = [
             'notice',
             'warning',
         ],
-        e: [
+        emoji: [
             e._warning /*⚠*/,
             e._hand /*✋*/,
             e._heavy_exclamation_mark /*❗*/,
@@ -427,7 +427,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'error',
             'exception',
             'hazard',
@@ -437,7 +437,7 @@ module.exports = [
             'abort',
             'deadlock',
         ],
-        e: [
+        emoji: [
             e._stop_sign /*🛑*/,
             e._biohazard /*☣*/,
             e._skull /*💀*/,
@@ -450,18 +450,18 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'user',
             'human',
             'operator',
         ],
-        e: [
+        emoji: [
             e._man /*👨*/,
             e._woman /*👩*/,
         ],
     },
     {
-        kw: [
+        keyword: [
             'UI',
             'UX',
             'HTML',
@@ -473,7 +473,7 @@ module.exports = [
             'image',
             'picture',
         ],
-        e: [
+        emoji: [
             e._tv /*📺*/,
             e._iphone /*📱*/,
             e._framed_picture /*🖼*/,
@@ -484,7 +484,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'config',
             'setup',
             'parameter',
@@ -492,7 +492,7 @@ module.exports = [
             'reference',
             'fixture',
         ],
-        e: [
+        emoji: [
             e._wheel_of_dharma /*☸*/,
             e._gear /*⚙*/,
             e._control_knobs /*🎛*/,
@@ -507,7 +507,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'mock',
             'fake',
             'stub',
@@ -519,7 +519,7 @@ module.exports = [
             'emulate',
             'behave',
         ],
-        e: [
+        emoji: [
             e._clown /*🤡*/,
             e._womans_hat /*👒*/,
             e._performing_arts /*🎭*/,
@@ -534,7 +534,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'variable',
             'field',
             'property',
@@ -542,7 +542,7 @@ module.exports = [
             'item',
             'element',
         ],
-        e: [
+        emoji: [
             e._key /*🔑*/,
             e._old_key /*🗝*/,
             e._label /*🏷*/,
@@ -555,7 +555,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'method',
             'function',
             'behavior',
@@ -564,7 +564,7 @@ module.exports = [
             'execute',
             'run',
         ],
-        e: [
+        emoji: [
             e._runner /*🏃*/,
             e._bicyclist /*🚴*/,
             e._mountain_bicyclist /*🚵*/,
@@ -582,7 +582,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'limit',
             'bound',
             'line',
@@ -593,7 +593,7 @@ module.exports = [
             'constrain',
             'restrain',
         ],
-        e: [
+        emoji: [
             e._stop_sign /*🛑*/,
             e._no_entry /*⛔*/,
             e._no_entry_sign /*🚫*/,
@@ -618,14 +618,14 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'detail',
             'info',
             'data',
             'body',
             'content',
         ],
-        e: [
+        emoji: [
             e._spiral_notepad /*🗒*/,
             e._notebook /*📓*/,
             e._ruler /*📏*/,
@@ -647,7 +647,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'store',
             'persist',
             'save',
@@ -657,7 +657,7 @@ module.exports = [
             'buffer',
             'memory',
         ],
-        e: [
+        emoji: [
             e._package /*📦*/,
             e._inbox_tray /*📥*/,
             e._syringe /*💉*/,
@@ -683,14 +683,14 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'load',
             'fetch',
             'read',
             'deserialize',
             'query',
         ],
-        e: [
+        emoji: [
             e._outbox_tray /*📤*/,
             e._eyeglasses /*👓*/,
             e._ear /*👂*/,
@@ -699,7 +699,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'security',
             'ACL',
             'shield',
@@ -720,7 +720,7 @@ module.exports = [
             'restrict',
             'cover',
         ],
-        e: [
+        emoji: [
             e._lock /*🔒*/,
             e._closed_lock_with_key /*🔐*/,
             e._lock_with_ink_pen /*🔏*/,
@@ -730,7 +730,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'decrypt',
             'unscramble',
             'decode',
@@ -745,7 +745,7 @@ module.exports = [
             'authentication',
             'authorization',
         ],
-        e: [
+        emoji: [
             e._key /*🔑*/,
             e._open_file_folder /*📂*/,
             e._open_book /*📖*/,
@@ -758,7 +758,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'URL',
             'URI',
             'path',
@@ -768,7 +768,7 @@ module.exports = [
             'route',
             'identifier',
         ],
-        e: [
+        emoji: [
             e._globe_with_meridians /*🌐*/,
             e._world_map /*🗺*/,
             e._earth_africa /*🌍*/,
@@ -781,7 +781,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'show',
             'display',
             'visible',
@@ -791,7 +791,7 @@ module.exports = [
             'draw',
             'print',
         ],
-        e: [
+        emoji: [
             e._framed_picture /*🖼*/,
             e._tv /*📺*/,
             e._desktop_computer /*🖥*/,
@@ -807,7 +807,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'skip',
             'ignore',
             'neglect',
@@ -816,7 +816,7 @@ module.exports = [
             'unfollow',
             'forget',
         ],
-        e: [
+        emoji: [
             e._scissors /*✂*/,
             e._horse_racing /*🏇*/,
             e._racehorse /*🐎*/,
@@ -825,7 +825,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'retry',
             'restart',
             'reboot',
@@ -836,7 +836,7 @@ module.exports = [
             'reimplement',
             'refactor',
         ],
-        e: [
+        emoji: [
             e._arrow_heading_up /*⤴*/,
             e._recycle /*♻*/,
             e._arrows_clockwise /*🔃*/,
@@ -849,7 +849,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'run',
             'execute',
             'boot',
@@ -868,7 +868,7 @@ module.exports = [
             'init',
             'initialize',
         ],
-        e: [
+        emoji: [
             e._runner /*🏃*/,
             e._car /*🚗*/,
             e._racing_car /*🏎*/,
@@ -890,7 +890,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'stop',
             'end',
             'pause',
@@ -909,7 +909,7 @@ module.exports = [
             'destruct',
             'dispose',
         ],
-        e: [
+        emoji: [
             e._stop_button /*⏹*/,
             e._pause_button /*⏸*/,
             e._stop_sign /*🛑*/,
@@ -929,13 +929,13 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'deploy',
             'install',
             'setup',
             'launch',
         ],
-        e: [
+        emoji: [
             e._school_satchel /*🎒*/,
             e._rocket /*🚀*/,
             e._airplane /*✈*/,
@@ -956,7 +956,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'redirect',
             'transform',
             'change',
@@ -964,7 +964,7 @@ module.exports = [
             'guide',
             'align',
         ],
-        e: [
+        emoji: [
             e._point_left /*👈*/,
             e._point_right /*👉*/,
             e._point_up /*☝*/,
@@ -984,7 +984,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'base',
             'ground',
             'floor',
@@ -996,7 +996,7 @@ module.exports = [
             'home',
             'origin',
         ],
-        e: [
+        emoji: [
             e._zero /*0️⃣*/,
             e._heart /*❤*/,
             e._heart_decoration /*💟*/,
@@ -1018,7 +1018,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'trespass',
             'breach',
             'vulnerability',
@@ -1031,7 +1031,7 @@ module.exports = [
             'compromise',
             'reveal',
         ],
-        e: [
+        emoji: [
             e._skull /*💀*/,
             e._skull_and_crossbones /*☠*/,
             e._hazard /*☣*/,
@@ -1051,7 +1051,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'package',
             'dependency',
             'module',
@@ -1064,7 +1064,7 @@ module.exports = [
             'container',
             'image',
         ],
-        e: [
+        emoji: [
             e._package /*📦*/,
             e._card_file_box /*🗃*/,
             e._file_cabinet /*🗄*/,
@@ -1084,14 +1084,14 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'middleware',
             'intermediate',
             'middleman',
             'dealer',
             'layer',
         ],
-        e: [
+        emoji: [
             e._rainbow /*🌈*/,
             e._pancakes /*🥞*/,
             e._burger /*🍔*/,
@@ -1103,7 +1103,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'structure',
             'organize',
             'format',
@@ -1114,7 +1114,7 @@ module.exports = [
             'net',
             'network',
         ],
-        e: [
+        emoji: [
             e._spider_web /*🕸*/,
             e._signal_strength /*📶*/,
             e._bar_chart /*📊*/,
@@ -1125,7 +1125,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'cover',
             'range',
             'shadow',
@@ -1133,7 +1133,7 @@ module.exports = [
             'support',
             'resolve',
         ],
-        e: [
+        emoji: [
             e._open_umbrella /*☂*/,
             e._umbrella /*☔*/,
             e._camping /*🏕*/,
@@ -1143,7 +1143,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'loop',
             'while',
             'for',
@@ -1154,7 +1154,7 @@ module.exports = [
             'iterate',
             'enumerate',
         ],
-        e: [
+        emoji: [
             e._recycle /*♻*/,
             e._repeat /*🔁*/,
             e._repeat_one /*🔂*/,
@@ -1166,7 +1166,7 @@ module.exports = [
         ],
     },
     {
-        kw: [
+        keyword: [
             'temporary',
             'work in progress',
             'WIP',
@@ -1176,7 +1176,7 @@ module.exports = [
             'block',
             'hinder',
         ],
-        e: [
+        emoji: [
             e._construction /*🚧*/,
             e._rotating_light /*🚨*/,
             e._warning /*⚠*/,
