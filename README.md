@@ -13,9 +13,9 @@ npm install git-emoji-dataset-js
 ## Usage
 
 ```ts
-import * as dataset from 'git-emoji-dataset-js'
-// or
 const dataset = require('git-emoji-dataset-js')
+// or
+import * as dataset from 'git-emoji-dataset-js'
 ```
 
 Emoji data are available under the `dataset.emoji` field:
