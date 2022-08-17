@@ -2,12 +2,12 @@
     "name": "@git-emoji/dataset-js",
     "description": "Emoji data and contextual emoji data",
     "author": "git-emoji",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/git-emoji/dataset-js.git"
     },
-    "main": "src/index.js",
+    "main": "out/index.js",
     "keywords": [
         "dataset",
         "emoji",
@@ -18,5 +18,11 @@
     "bugs": {
         "url": "https://github.com/git-emoji/dataset-js/issues"
     },
-    "homepage": "https://github.com/git-emoji/dataset-js#readme"
+    "homepage": "https://github.com/git-emoji/dataset-js#readme",
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "typescript": "^4.7.4"
+    }
 }

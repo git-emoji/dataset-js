@@ -1,6 +1,6 @@
-const e = require('./emoji');
+import { emoji as e } from './emoji';
 
-module.exports = [
+export const context = [
     {
         keyword: [
             'correct',
