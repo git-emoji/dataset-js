@@ -1058,8 +1058,9 @@ module.exports = [
             'library',
             'component',
             'plugin',
-            'add-in',
             'plug',
+            'add-in',
+            'addin',
             'object',
             'container',
             'image',
@@ -1168,7 +1169,7 @@ module.exports = [
     {
         keyword: [
             'temporary',
-            'work in progress',
+            'work-in-progress',
             'WIP',
             'pend',
             'wait',
