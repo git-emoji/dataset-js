@@ -1,4 +1,4 @@
-module.exports = {
+export const emoji = {
     _1234: { s: '🔢', id: '1234' },
     _1st_place_medal: { s: '🥇', id: '1st_place_medal' },
     _abcd: { s: '🔡', id: 'abcd' },
@@ -22,7 +22,7 @@ module.exports = {
     _artificial_satellite: { s: '🛰', id: 'artificial_satellite' },
     _baby_bottle: { s: '🍼', id: 'baby_bottle' },
     _baby_chick: { s: '🐤', id: 'baby_chick' },
-    _baby_s: { s: '🚼', id: 'baby_symbol' },
+    _baby_symbol: { s: '🚼', id: 'baby_symbol' },
     _baby: { s: '👶', id: 'baby' },
     _balloon: { s: '🎈', id: 'balloon' },
     _ballot_box_with_check: { s: '☑️', id: 'ballot_box_with_check' },
