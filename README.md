@@ -24,6 +24,8 @@ Emoji data are available under the `dataset.emoji` field:
 // nodejs REPL
 > dataset.emoji._bug
 { s: '🐛', id: 'bug' }
+> Object.keys(dataset.emoji).length
+308
 ```
 
 Also, *contextual* emoji data are also available. Contextual emoji data describe the association between keywords and emojis. You can find them as an array assigned to the `dataset.context` field (detailed result might be different):
