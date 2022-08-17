@@ -1,5 +1,5 @@
 {
-    "name": "git-emoji-dataset-js",
+    "name": "@git-emoji/dataset-js",
     "description": "Emoji data and contextual emoji data",
     "author": "git-emoji",
     "version": "0.0.1",

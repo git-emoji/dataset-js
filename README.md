@@ -7,15 +7,15 @@ Note that the `main` branch may get updated at any time without notice.
 ## Installation
 
 ```sh
-npm install git-emoji-dataset-js
+npm install @git-emoji/dataset-js
 ```
 
 ## Usage
 
 ```ts
-const dataset = require('git-emoji-dataset-js')
+const dataset = require('@git-emoji/dataset-js')
 // or
-import * as dataset from 'git-emoji-dataset-js'
+import * as dataset from '@git-emoji/dataset-js'
 ```
 
 Emoji data are available under the `dataset.emoji` field:
