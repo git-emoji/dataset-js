@@ -281,7 +281,7 @@ export const emoji = {
     _traffic_light: { s: '🚥', id: 'traffic_light' },
     _tree: { s: '🌳', id: 'tree' },
     _triangular_ruler: { s: '📐', id: 'triangular_ruler' },
-    _tshirt: { s: '/', id: 'tshirt' },
+    _tshirt: { s: '👕', id: 'tshirt' },
     _tv: { s: '📺', id: 'tv' },
     _twisted_rightwards_arrows: { s: '🔀', id: 'twisted_rightwards_arrows' },
     _umbrella: { s: '☔️', id: 'umbrella' },
