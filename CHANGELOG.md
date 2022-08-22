@@ -1,8 +1,9 @@
 # Change Log
 
-## Next
+## 0.0.4
 
 - Sort emoji context data alphabetically
+- Improve context data
 
 ## 0.0.2
 
