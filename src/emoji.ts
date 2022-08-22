@@ -48,6 +48,7 @@ export const emoji = {
     _briefcase: { s: '💼', id: 'briefcase' },
     _bug: { s: '🐛', id: 'bug' },
     _building_construction: { s: '🏗', id: 'building_construction' },
+    _bulb: {s:'💡', id: 'bulb'},
     _bullettrain_front: { s: '🚅', id: 'bullettrain_front' },
     _burger: { s: '🍔', id: 'burger' },
     _busts_in_silhouette: { s: '👥', id: 'busts_in_silhouette' },
