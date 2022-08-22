@@ -19,10 +19,13 @@ export const context = [
     },
     {
         keyword: [
+            'archive',
             'box',
             'contain',
+            'container',
             'cover',
             'hold',
+            'package',
             'safe',
             'shell',
             'wrap',
@@ -48,7 +51,10 @@ export const context = [
             'handshake',
             'merge',
             'mix',
+            'postfix',
+            'prefix',
             'prepend',
+            'suffix',
             'unify',
         ],
         emoji: [
@@ -67,11 +73,17 @@ export const context = [
     {
         keyword: [
             'archive',
+            'away',
             'cancel',
+            'close',
             'delete',
+            'deprecate',
+            'disable',
             'drop',
             'exclude',
+            'off',
             'remove',
+            'trash',
         ],
         emoji: [
             e._bomb /*💣*/,
@@ -97,9 +109,12 @@ export const context = [
     {
         keyword: [
             'arrange',
+            'array',
+            'list',
             'order',
             'reorder',
             'sort',
+            'stack',
         ],
         emoji: [
             e._1234 /*🔢*/,
@@ -119,6 +134,8 @@ export const context = [
             'embellish',
             'enhance',
             'improve',
+            'readability',
+            'readable',
             'refresh',
             'upgrade',
         ],
@@ -160,11 +177,16 @@ export const context = [
         keyword: [
             'add',
             'append',
+            'enable',
             'feature',
+            'fresh',
             'increase',
             'insert',
+            'new',
+            'on',
             'prepend',
             'register',
+            'switch',
             'update',
             'upgrade',
         ],
@@ -175,6 +197,7 @@ export const context = [
             e._baby_chick /*🐤*/,
             e._baby_symbol /*🚼*/,
             e._blossom /*🌼*/,
+            e._bulb /*💡*/,
             e._checkered_flag /*🏁*/,
             e._electric_plug /*🔌*/,
             e._gift /*🎁*/,
@@ -191,9 +214,12 @@ export const context = [
     },
     {
         keyword: [
+            'beauty',
             'clean',
             'format',
+            'good',
             'lint',
+            'readable',
             'refactor',
             'style',
         ],
@@ -210,7 +236,7 @@ export const context = [
             e._shower /*🚿*/,
             e._straight_ruler /*📏*/,
             e._triangular_ruler /*📐*/,
-            e._tshirt /*/*/,
+            e._tshirt /*👕*/,
         ],
     },
     {
@@ -220,6 +246,9 @@ export const context = [
             'refactor',
             'reimplement',
             'rethink',
+            'retro',
+            'retrospect',
+            'retrospection',
             'rewrite',
         ],
         emoji: [
