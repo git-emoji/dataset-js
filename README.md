@@ -18,6 +18,14 @@ const dataset = require('@git-emoji/dataset-js')
 import * as dataset from '@git-emoji/dataset-js'
 ```
 
+Three kind of data are available in this package:
+
+- Emoji data
+- Contextual data
+- Word data
+
+### Emoji data
+
 Emoji data are available under the `dataset.emoji` field:
 
 ```js
@@ -28,7 +36,9 @@ Emoji data are available under the `dataset.emoji` field:
 308
 ```
 
-Also, *contextual* emoji data are also available. Contextual emoji data describe the association between keywords and emojis. You can find them as an array assigned to the `dataset.context` field (detailed result might be different):
+### Contextual data
+
+*Contextual* emoji data are also available. Contextual emoji data describe the association between keywords and emojis. You can find them as an array assigned to the `dataset.context` field (detailed result might be different):
 
 ```js
 // nodejs REPL
@@ -36,15 +46,35 @@ Also, *contextual* emoji data are also available. Contextual emoji data describe
 48
 > dataset.context[0]
 {
-  keyword: [ 'correct', 'fix', 'bugfix', 'bug', 'patch' ],
+  keyword: [
+    'bogus',     'bug',
+    'bugfix',    'correct',
+    'erroneous', 'fix',
+    'incorrect', 'patch',
+    'wrong'
+  ],
   emoji: [
-    { s: '🐛', id: 'bug' },
     { s: '🐞', id: 'beetle' },
+    { s: '🐛', id: 'bug' },
+    { s: '🗜', id: 'clamp' },
     { s: '🔨', id: 'hammer' },
-    { s: '🔧', id: 'wrench' },
-    { s: '🗜', id: 'clamp' }
+    { s: '🔧', id: 'wrench' }
   ]
 }
+```
+
+### Word data
+
+Since words may have other variants with the same semantics, there's the words dataset in the package to help identify other variants. This data is accessible through the `dataset.word` property:
+
+```js
+// nodejs REPL
+> dataset.word.authorize
+{ cover: [ 'authorizing', 'authorization' ] }
+> dataset.word.good
+{ cover: [] }
+> Object.keys(dataset.word).length
+373
 ```
 
 ## Thank you
