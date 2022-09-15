@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.0.5
+
+- Improve context data
+- Introduce word data
+
 ## 0.0.4
 
 - Sort emoji context data alphabetically
