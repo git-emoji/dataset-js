@@ -1,13 +1,23 @@
 import { emoji as e } from './emoji';
+import { word } from './word';
 
-export const context = [
+type ContextEntry = {
+    keyword: (keyof typeof word)[];
+    emoji: ((typeof e)[keyof typeof e])[];
+};
+
+export const context: ContextEntry[] = [
     {
         keyword: [
+            'bogus',
             'bug',
             'bugfix',
             'correct',
+            'erroneous',
             'fix',
+            'incorrect',
             'patch',
+            'wrong',
         ],
         emoji: [
             e._beetle /*🐞*/,
@@ -56,6 +66,8 @@ export const context = [
             'prepend',
             'suffix',
             'unify',
+            'unit',
+            'unite',
         ],
         emoji: [
             e._arrows_clockwise /*🔃*/,
@@ -129,6 +141,7 @@ export const context = [
     },
     {
         keyword: [
+            'beautiful',
             'beauty',
             'cosmetics',
             'embellish',
@@ -177,10 +190,12 @@ export const context = [
         keyword: [
             'add',
             'append',
+            'bump',
             'enable',
             'feature',
             'fresh',
             'increase',
+            'increment',
             'insert',
             'new',
             'on',
@@ -189,6 +204,7 @@ export const context = [
             'switch',
             'update',
             'upgrade',
+            'version',
         ],
         emoji: [
             e._arrow_double_up /*⏫*/,
@@ -248,7 +264,6 @@ export const context = [
             'rethink',
             'retro',
             'retrospect',
-            'retrospection',
             'rewrite',
         ],
         emoji: [
@@ -411,7 +426,7 @@ export const context = [
             'log',
             'manual',
             'note',
-            'README',
+            'readme',
             'record',
             'store',
             'text',
@@ -441,11 +456,11 @@ export const context = [
             'avoid',
             'beware',
             'caution',
-            'look-out',
+            'lookout',
             'notice',
             'prevent',
             'safe',
-            'warning',
+            'warn',
         ],
         emoji: [
             e._exclamation /*❗*/,
@@ -481,6 +496,7 @@ export const context = [
     {
         keyword: [
             'human',
+            'operation',
             'operator',
             'user',
         ],
@@ -492,14 +508,14 @@ export const context = [
     {
         keyword: [
             'canvas',
-            'CSS',
+            'css',
             'face',
-            'front-end',
-            'HTML',
+            'frontend',
+            'html',
             'image',
             'picture',
-            'UI',
-            'UX',
+            'ui',
+            'ux',
             'view',
         ],
         emoji: [
@@ -590,7 +606,7 @@ export const context = [
             'execute',
             'function',
             'method',
-            'paly',
+            'play',
             'run',
         ],
         emoji: [
@@ -729,7 +745,7 @@ export const context = [
     },
     {
         keyword: [
-            'ACL',
+            'acl',
             'antivirus',
             'clutter',
             'code',
@@ -760,8 +776,8 @@ export const context = [
     },
     {
         keyword: [
-            'authentication',
-            'authorization',
+            'authenticate',
+            'authorize',
             'decode',
             'decrypt',
             'free',
@@ -794,8 +810,8 @@ export const context = [
             'location',
             'path',
             'route',
-            'URI',
-            'URL',
+            'uri',
+            'url',
         ],
         emoji: [
             e._cityscape /*🏙*/,
@@ -818,6 +834,7 @@ export const context = [
             'paint',
             'print',
             'show',
+            'visibility',
             'visible',
         ],
         emoji: [
@@ -858,10 +875,10 @@ export const context = [
             'reattempt',
             'reboot',
             'reconstruct',
+            'reestablish',
             'refactor',
             'reimplement',
             'rerun',
-            'restablish',
             'restart',
             'retry',
         ],
@@ -892,7 +909,7 @@ export const context = [
             'initialize',
             'launch',
             'move',
-            'ON',
+            'on',
             'run',
             'start',
             'try',
@@ -928,7 +945,7 @@ export const context = [
             'holdup',
             'interrupt',
             'kill',
-            'OFF',
+            'off',
             'out',
             'pause',
             'silence',
@@ -1081,11 +1098,11 @@ export const context = [
     },
     {
         keyword: [
-            'add-in',
             'addin',
             'component',
             'container',
             'dependency',
+            'dependent',
             'image',
             'library',
             'module',
@@ -1181,7 +1198,7 @@ export const context = [
             'loop',
             'loopback',
             'repeat',
-            'repetition',
+            'repetitive',
             'while',
         ],
         emoji: [
@@ -1203,8 +1220,7 @@ export const context = [
             'suspend',
             'temporary',
             'wait',
-            'WIP',
-            'work-in-progress',
+            'wip',
         ],
         emoji: [
             e._construction /*🚧*/,
