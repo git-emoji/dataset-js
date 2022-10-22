@@ -21,7 +21,7 @@
     "homepage": "https://github.com/git-emoji/dataset-js#readme",
     "scripts": {
         "build": "tsc",
-        "test": "node node_modules/mocha/bin/mocha.js --ui tdd out/test/**.test.js"
+        "test": "npm run build && node node_modules/mocha/bin/mocha.js --ui tdd out/test/**.test.js"
     },
     "devDependencies": {
         "@types/assert": "^1.5.6",
