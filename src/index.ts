@@ -1,11 +1,15 @@
-import { emoji as _emoji } from './emoji';
-import { context as _context } from './context';
-import { word as _word, WordTag as _WordTag, Word as _Word, WordEntry as _WordEntry } from './word';
+import * as e from './emoji';
+import * as c from './context';
+import * as w from './word';
 
-export const emoji = _emoji;
-export const context = _context;
-export const word = _word;
+export type EmojiDict = e.EmojiDict;
+export type EmojiEntry = e.EmojiEntry;
+export const emoji = e.emoji;
 
-export type WordTag = _WordTag;
-export type Word = _Word;
-export type WordEntry = _WordEntry;
+export type ContextEntry = c.ContextEntry;
+export const context = c.context;
+
+export type WordTag = w.WordTag;
+export type WordDict = w.WordDict;
+export type WordEntry = w.WordEntry;
+export const word = w.word;

@@ -2,7 +2,7 @@ export type WordTag = 'verb' | 'acronym';
 const [VERB, ACRONYM] = ['verb', 'acronym'];
 
 export type WordEntry = { cover: string[]; tag: WordTag[]; };
-export type Word = { [key: string]: WordEntry };
+export type WordDict = { [key: string]: WordEntry };
 
 export const word = {
     abort: { cover: [], tag: [VERB] },
@@ -381,4 +381,4 @@ export const word = {
 };
 
 // Make sure of type safety. 
-word as Word;
+word as WordDict;

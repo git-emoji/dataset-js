@@ -1,3 +1,6 @@
+export type EmojiEntry = { s: string; id: string; };
+export type EmojiDict = { [key: string]: EmojiEntry };
+
 export const emoji = {
     _1234: { s: '🔢', id: '1234' },
     _1st_place_medal: { s: '🥇', id: '1st_place_medal' },
@@ -309,3 +312,6 @@ export const emoji = {
     _x: { s: '❌', id: 'x' },
     _zero: { s: '0️⃣', id: 'zero' },
 };
+
+// Make sure of type safety. 
+emoji as EmojiDict;
