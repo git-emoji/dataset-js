@@ -2,7 +2,7 @@
     "name": "@git-emoji/dataset-js",
     "description": "Emoji data and contextual emoji data",
     "author": "git-emoji",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/git-emoji/dataset-js.git"
