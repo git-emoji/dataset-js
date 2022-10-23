@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.6
+
+- Add word tags
+
 ## 0.0.5
 
 - Improve context data

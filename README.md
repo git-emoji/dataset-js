@@ -70,9 +70,9 @@ Since words may have other variants with the same semantics, there's the words d
 ```js
 // nodejs REPL
 > dataset.word.authorize
-{ cover: [ 'authorizing', 'authorization' ] }
+{ cover: [ 'authorizing', 'authorization' ], tag: [ 'verb' ] }
 > dataset.word.good
-{ cover: [] }
+{ cover: [], tag: [] }
 > Object.keys(dataset.word).length
 373
 ```

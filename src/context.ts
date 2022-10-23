@@ -1,7 +1,7 @@
 import { emoji as e } from './emoji';
 import { word } from './word';
 
-type ContextEntry = {
+export type ContextEntry = {
     keyword: (keyof typeof word)[];
     emoji: ((typeof e)[keyof typeof e])[];
 };
