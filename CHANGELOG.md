@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.0.7
+
+- Add context data v2
+- Improve word data
+- Improve emoji data
+
 ## 0.0.6
 
 - Add word tags
