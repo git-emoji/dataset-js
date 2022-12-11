@@ -15,13 +15,13 @@ suite('Context data', () => {
     suite('should be ordered', () => {
         for (const { name, data } of allContexts) {
             for (const entry of data) {
-                ((entry) => {
+                ((entry, name) => {
                     test(`(${name}) entry with keywords: ${entry.keyword.join(',')}`, () => {
                         assertSorted(entry.keyword, `(${name}) keyword: ${entry.keyword.join(',')}`);
                         const ids = entry.emoji.map(x => x.id);
                         assertSorted(ids, `(${name}) emoji: ${ids.join(',')}`);
                     });
-                })(entry);
+                })(entry, name);
             }
         }
     });
@@ -29,11 +29,11 @@ suite('Context data', () => {
     suite('should reference defined emojis', () => {
         for (const { name, data } of allContexts) {
             for (const entry of data) {
-                ((entry) => {
+                ((entry, name) => {
                     test(`(${name}) entry with keywords: ${entry.keyword.join(',')}`, () => {
                         entry.emoji.forEach(e => assert.ok((emoji as any)[emojiIdToFieldName(e.id)], `(${name}) unknown emoji id: ${e.id}`));
                     });
-                })(entry);
+                })(entry, name);
             }
         }
     });
@@ -41,11 +41,11 @@ suite('Context data', () => {
     suite('should reference defined words', () => {
         for (const { name, data } of allContexts) {
             for (const entry of data) {
-                ((entry) => {
+                ((entry, name) => {
                     test(`(${name}) entry with keywords: ${entry.keyword.join(',')}`, () => {
                         entry.keyword.forEach(kw => assert.ok((word as any)[kw], `(${name}) unknown word: ${kw}`));
                     });
-                })(entry);
+                })(entry, name);
             }
         }
     });
