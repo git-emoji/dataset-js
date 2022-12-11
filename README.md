@@ -22,6 +22,8 @@ Three kind of data are available in this package:
 
 - Emoji data
 - Contextual data
+  - v1
+  - v2
 - Word data
 
 ### Emoji data
@@ -38,7 +40,11 @@ Emoji data are available under the `dataset.emoji` field:
 
 ### Contextual data
 
-*Contextual* emoji data are also available. Contextual emoji data describe the association between keywords and emojis. You can find them as an array assigned to the `dataset.context` field (detailed result might be different):
+*Contextual* emoji data are also available. Contextual emoji data describe the association between keywords and emojis. You can find them as an array assigned to the fields `dataset.context` and `dataset.contextV2`. 
+
+Note that, the v2 revision has more focused and to-the-point entries, as opposed to the first version (v1) where associations are rather generic and multi-purpose.
+
+This is an example of the contextual data (detailed result might be different):
 
 ```js
 // nodejs REPL
