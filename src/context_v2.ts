@@ -747,7 +747,7 @@ export const contextV2: ContextEntry[] = [
         ],
         emoji: [
             e._girl /*👧*/,
-            e._older_woman /*👴*/,
+            e._older_woman /*👵*/,
             e._woman /*👩*/,
         ],
     },
