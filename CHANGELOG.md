@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.8
+
+- Add `emoji2md` script
+
 ## 0.0.7
 
 - Add context data v2
