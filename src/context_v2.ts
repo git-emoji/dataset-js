@@ -16,6 +16,7 @@ export const contextV2: ContextEntry[] = [
     {
         keyword: [
             'amend',
+            'change',
             'construct',
             'correct',
             'establish',
@@ -1287,6 +1288,15 @@ export const contextV2: ContextEntry[] = [
         emoji: [
             e._construction /*🚧*/,
             e._hourglass_flowing_sand /*⏳*/,
+        ],
+    },
+    {
+        keyword: [
+            'replace',
+            'substitute',
+        ],
+        emoji: [
+            e._repeat /*🔁*/,
         ],
     },
 ];
