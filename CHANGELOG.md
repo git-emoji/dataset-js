@@ -3,6 +3,7 @@
 ## 0.0.8
 
 - Add `emoji2md` script
+- Improve word/context data
 
 ## 0.0.7
 
