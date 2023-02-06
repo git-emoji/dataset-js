@@ -1,5 +1,10 @@
 # Change Log
 
+
+## 0.0.9
+
+- Add `version` to exports
+
 ## 0.0.8
 
 - Add `emoji2md` script

@@ -3,6 +3,8 @@ import * as c1 from './context';
 import * as c2 from './context_v2';
 import * as w from './word';
 
+export const version = require('../package.json').version as string;
+
 export type EmojiDict = e.EmojiDict;
 export type EmojiEntry = e.EmojiEntry;
 export const emoji = e.emoji;
