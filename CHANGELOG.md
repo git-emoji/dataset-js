@@ -1,6 +1,10 @@
 # Change Log
 
 
+## 0.0.10
+
+- Improve word/context data
+
 ## 0.0.9
 
 - Add `version` to exports
