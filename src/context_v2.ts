@@ -470,6 +470,7 @@ export const contextV2: ContextEntry[] = [
             'exam',
             'find',
             'lookup',
+            'monitor',
             'query',
             'review',
             'search',
@@ -488,6 +489,7 @@ export const contextV2: ContextEntry[] = [
             'measure',
             'meter',
             'metre',
+            'metric',
             'transform',
         ],
         emoji: [
@@ -1297,6 +1299,162 @@ export const contextV2: ContextEntry[] = [
         ],
         emoji: [
             e._repeat /*🔁*/,
+        ],
+    },
+    {
+        keyword: [
+            'internet',
+            'wan',
+            'web',
+            'www',
+        ],
+        emoji: [
+            e._globe_with_meridians /*🌐*/,
+        ],
+    },
+    {
+        keyword: [
+            'ethernet',
+            'lan',
+        ],
+        emoji: [
+            e._electric_plug /*🔌*/,
+        ],
+    },
+    {
+        keyword: [
+            'wifi',
+            'wireless',
+            'wlan',
+        ],
+        emoji: [
+            e._satellite /*📡*/,
+        ],
+    },
+    {
+        keyword: [
+            'ping',
+            'pong',
+        ],
+        emoji: [
+            e._ping_pong /*🏓*/,
+        ],
+    },
+    {
+        keyword: [
+            'dig',
+        ],
+        emoji: [
+            e._detective /*🕵*/,
+        ],
+    },
+    {
+        keyword: [
+            'host',
+            'serve',
+        ],
+        emoji: [
+            e._computer /*💻*/,
+        ],
+    },
+    {
+        keyword: [
+            'application',
+            'client',
+            'program',
+        ],
+        emoji: [
+            e._iphone /*📱*/,
+        ],
+    },
+    {
+        keyword: [
+            'bash',
+            'cmd',
+            'dos',
+            'fish',
+            'powershell',
+            'pwsh',
+            'terminal',
+            'zsh',
+        ],
+        emoji: [
+            e._desktop_computer /*🖥*/,
+        ],
+    },
+    {
+        keyword: [
+            'fish',
+        ],
+        emoji: [
+            e._fish /*🐟*/,
+        ],
+    },
+    {
+        keyword: [
+            'key',
+            'keyboard',
+        ],
+        emoji: [
+            e._keyboard /*⌨️*/,
+        ],
+    },
+    {
+        keyword: [
+            'click',
+            'cursor',
+            'mouse',
+        ],
+        emoji: [
+            e._computer_mouse /*🖱️*/,
+        ],
+    },
+    {
+        keyword: [
+            'display',
+            'monitor',
+            'screen'
+        ],
+        emoji: [
+            e._desktop_computer /*🖥*/,
+        ],
+    },
+    {
+        keyword: [
+            'android',
+            'ios',
+            'mobile',
+            'smartphone',
+            'winphone',
+        ],
+        emoji: [
+            e._iphone /*📱*/,
+        ],
+    },
+    {
+        keyword: [
+            'window',
+        ],
+        emoji: [
+            e._window /*🪟*/,
+        ],
+    },
+    {
+        keyword: [
+            'thread',
+        ],
+        emoji: [
+            e._thread /*🧵*/,
+            e._yarn /*🧶*/,
+        ],
+    },
+    {
+        keyword: [
+            'process',
+        ],
+        emoji: [
+            e._factory /*🏭*/,
+            e._gear /*⚙️*/,
         ],
     },
 ];
